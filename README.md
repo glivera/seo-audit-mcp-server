@@ -1,8 +1,6 @@
-# SEO Audit MCP Server
+# Accrue SEO
 
-Professional SEO auditing for any AI assistant. 14 tools, 9 specialist analysis agents, structured output with prioritized recommendations.
-
-Connect to Claude Desktop, Cursor, Windsurf, VS Code, or any MCP-compatible client and get instant SEO analysis through natural conversation.
+Audit any website from your AI assistant. Type 'audit mysite.com' in Claude Desktop, Cursor, or Windsurf. Get a scored SEO health check in 30 seconds.
 
 **Server endpoint:** `https://seo.accruedev.com/mcp`
 
@@ -57,28 +55,28 @@ Add to MCP settings:
 
 | Tool | Description | Time |
 |------|-------------|------|
-| `seo_quick_audit` | Single page SEO audit. Returns top 5 issues with fixes, overall score and grade | 5 to 15s |
-| `seo_check_schema` | Detect and validate JSON-LD, Microdata, RDFa structured data | 3 to 5s |
+| `seo_quick_audit` | Quick audit. Returns top 5 issues with fixes, overall score and grade | 5 to 15s |
+| `seo_check_schema` | Schema check. Validates structured data (JSON-LD, Microdata, RDFa) for rich results eligibility | 3 to 5s |
 | `seo_check_meta` | Check title, description, OG tags, canonical, robots directives | 2 to 3s |
 
 ### Pro Tier ($29/mo, 50 audits)
 
 | Tool | Description | Time |
 |------|-------------|------|
-| `seo_deep_audit` | Full 9-agent audit (async). Technical, content, schema, performance, local, GEO, links, images, recommendations | 2 to 5 min |
+| `seo_deep_audit` | Full site analysis (async). Covers all 9 areas: technical, content, schema, performance, local, AI visibility, links, images, priority fixes | 2 to 5 min |
 | `seo_audit_status` | Poll async job progress and get results | instant |
 | `seo_check_performance` | Core Web Vitals (LCP, INP, CLS) via PageSpeed Insights | 5 to 10s |
-| `seo_check_content` | E-E-A-T quality analysis, readability, thin content detection | 5 to 10s |
-| `seo_check_local` | Local SEO: NAP consistency, GBP signals, citations, local schema | 5 to 10s |
-| `seo_check_geo` | AI search readiness: crawler access, llms.txt, passage citability, WAF/bot detection | 5 to 10s |
-| `seo_generate_schema` | Generate appropriate JSON-LD schema markup for any page | 3 to 5s |
+| `seo_check_content` | Content quality analysis: E-E-A-T scoring, readability, thin content detection | 5 to 10s |
+| `seo_check_local` | Local presence check: NAP consistency, GBP signals, citations, local schema | 5 to 10s |
+| `seo_check_geo` | AI search visibility: crawler access, llms.txt, passage citability, WAF/bot detection | 5 to 10s |
+| `seo_generate_schema` | Generate JSON-LD schema markup for any page | 3 to 5s |
 | `seo_history` | View past audit results for a URL | instant |
 
 ### Agency Tier ($99/mo, 300 audits)
 
 | Tool | Description | Time |
 |------|-------------|------|
-| `seo_crawl_site` | BFS site crawler with robots.txt compliance, broken link and orphan page detection | 1 to 10 min |
+| `seo_crawl_site` | Full site crawl with robots.txt compliance, broken link and orphan page detection | 1 to 10 min |
 | `seo_crawl_status` | Poll crawl progress and get results | instant |
 
 ### Utility (all tiers)
@@ -87,19 +85,17 @@ Add to MCP settings:
 |------|-------------|
 | `seo_usage` | Check remaining credits and plan status |
 
-## 9 Specialist Agents
+## What Every Audit Covers
 
-The deep audit runs 9 independent analysis agents in parallel:
-
-1. **Technical** : crawlability, indexability, security headers, URL structure, mobile optimization
-2. **Content** : E-E-A-T scoring (4-pillar: Experience, Expertise, Authoritativeness, Trust), readability, word count, thin content
-3. **Schema** : JSON-LD/Microdata/RDFa detection, validation against Schema.org specs, deprecated schema flagging
-4. **Performance** : Core Web Vitals (LCP, INP per March 2026 update, CLS), render-blocking resources, image optimization
-5. **Local** : NAP consistency, Google Business Profile signals, local schema, citation health
-6. **GEO** : AI crawler access (GPTBot, ClaudeBot, PerplexityBot), llms.txt compliance, passage-level citability scoring, WAF/CDN bot blocking detection
-7. **Links** : Internal link structure, broken links, redirect chains, anchor text distribution
-8. **Images** : Alt text coverage, file size, modern format usage, lazy loading, CLS prevention
-9. **Recommender** : Cross-agent synthesis, prioritized action plan with effort/impact scoring
+- **Site Health**: crawlability, indexability, security headers, URL structure, mobile optimization
+- **Page Quality**: E-E-A-T scoring, readability, word count, thin content detection
+- **Rich Results**: structured data validation against Schema.org specs, deprecated schema flagging
+- **Page Speed**: Core Web Vitals (LCP, INP, CLS), render-blocking resources, image optimization
+- **Content Quality**: topic depth, passage-level quality signals, keyword relevance
+- **AI Search Visibility**: GPTBot/ClaudeBot/PerplexityBot access, llms.txt compliance, citability scoring
+- **Local Presence**: NAP consistency, Google Business Profile signals, citation health
+- **Sitemap Health**: internal link structure, broken links, redirect chains, anchor text distribution
+- **Priority Fixes**: cross-area synthesis, prioritized action plan with effort/impact scoring
 
 ## Example Usage
 
@@ -128,9 +124,9 @@ How AI-ready is my content? Check https://mysite.com/blog/post
 | Free | $0 | 3/day (IP-limited) | Quick audit, schema check, meta check |
 | Pro | $29/mo | 50 | All individual tools + deep audit + history |
 | Agency | $99/mo | 300 | Everything + site crawler + competitor analysis |
-| Enterprise | $299/mo | Unlimited | Everything + priority support + custom agents |
+| Enterprise | $299/mo | Unlimited | Everything + priority support + custom configuration |
 
-Get your API key at [seo.accruedev.com](https://seo.accruedev.com)
+Start Free at [seo.accruedev.com](https://seo.accruedev.com)
 
 ## Technical Details
 
@@ -149,4 +145,4 @@ Get your API key at [seo.accruedev.com](https://seo.accruedev.com)
 
 ## License
 
-Proprietary. Free tier available. See [pricing](https://seo.accruedev.com) for details.
+Proprietary. Part of Accrue Dev. Free tier available.
