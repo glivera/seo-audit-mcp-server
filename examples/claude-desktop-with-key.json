@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "seo-audit": {
+      "url": "https://seo.accruedev.com/mcp",
+      "headers": {
+        "Authorization": "Bearer smcp_your_api_key_here"
+      }
+    }
+  }
+}
