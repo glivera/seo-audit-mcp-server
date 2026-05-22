@@ -78,6 +78,7 @@ Add to MCP settings:
 |------|-------------|------|
 | `seo_crawl_site` | Full site crawl with robots.txt compliance, broken link and orphan page detection | 1 to 10 min |
 | `seo_crawl_status` | Poll crawl progress and get results | instant |
+| `seo_competitor_check` | SERP competitor analysis: where you rank, top 3 competitors, on-page comparison matrix | 15 to 25s |
 
 ### Utility (all tiers)
 

@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.glivera/seo-audit",
   "title": "SEO Audit MCP Server",
-  "description": "Professional SEO auditing: 14 tools, 9 agents, CWV, E-E-A-T, schema, GEO. Free tier.",
+  "description": "Professional SEO auditing: 15 tools, 9 checks, CWV, E-E-A-T, schema, GEO. Free tier.",
   "repository": {
     "url": "https://github.com/glivera/seo-audit-mcp-server",
     "source": "github"
