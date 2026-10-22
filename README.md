@@ -2,6 +2,8 @@
 
 Audit any website from your AI assistant. Type 'audit mysite.com' in Claude Desktop, Cursor, or Windsurf. Get a scored SEO health check in 30 seconds.
 
+<a href="https://mcprush.com/glivera/seo-audit-mcp"><img height="20" src="https://mcprush.com/badge/glivera-seo-audit-mcp/score.svg" alt="SEO Audit MCP on mcprush" loading="lazy" /></a>
+
 **Server endpoint:** `https://seo.accruedev.com/mcp`
 
 ## Quick Start
